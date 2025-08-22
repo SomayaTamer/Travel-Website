@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel</title>
+        <link rel="icon" href="img/favicon.png" type="png">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!--start header-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" class="logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Trips
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact US</a>
+                    </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn my-2 my-sm-0 mx-2" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--end header-->
+
+        <!--start swiper-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="img/slider6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>BANGOK</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/slider7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>PYRAMIDS</h3>
+                    <p>We had such great time in Egypt</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/slider5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>NEW YORK</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--end swiper-->
+    
+        <!--start Accordion-->
+        <div class="container">
+            <div class="accordion py-5" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn text-dark fw-bold btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Cairo
+                        </button>
+                    </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn text-dark fw-bold btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Bangok
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn text-dark fw-bold btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        NewYork
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end Accordion-->
+
+        <!--start section 3-->
+        <section class="destination">
+            <h2 class="main-title text-center mb-5">Popular Destinations In Egypt</h2>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/g1.png" class="img-fluid" alt="cairo"> <!--img fluid makes width 100% and height of box its inside-->
+                            <div class="box-text">
+                                <h4>Cairo</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/g4.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>Paris</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/g3.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>NewYork</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/uk.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>Russia</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/india.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>India</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/us.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>California</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/pakistan.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>Tailand</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/package-1.jpg" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>Maldives</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box mb-4">
+                            <img src="img/g6.png" class="img-fluid" alt="cairo">
+                            <div class="box-text">
+                                <h4>Moscow</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Eligendi reprehenderit deserunt sequi! Rerum facere temporibus
+                                    dolore dolores quibusdam, illum exercitationem ducimus autem perspiciatis
+                                </p>
+                                <button class="btn rounded">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!--end section 3-->
+
+        <!--start section 4 thanks for-->
+        <section class="thanks py-5">
+            <h2 class="main-title text-center mb-5">Thanks For</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="overlay">
+                                <div class="text-thanks">
+                                    <h4>All Thanks For</h4>
+                                    <h6>Eng/ Ahmed</h6>
+                                    <span>Director of UI/UX</span>
+                                </div>
+                            </div>
+                            <img src="img/team_1.jpg" class="img-fluid" alt="member">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="overlay">
+                                <div class="text-thanks">
+                                    <h4>All Thanks For</h4>
+                                    <h6>Eng/ Ahmed</h6>
+                                    <span>Director of UI/UX</span>
+                                </div>
+                            </div>
+                            <img src="img/team_2.jpg"  class="img-fluid" alt="member">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="overlay">
+                                <div class="text-thanks">
+                                    <h4>All Thanks For</h4>
+                                    <h6>Eng/ Ahmed</h6>
+                                    <span>Director of UI/UX</span>
+                                </div>
+                            </div>
+                            <img src="img/team_3.jpg"  class="img-fluid" alt="member">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--end section 4 thanks for-->
+
+        <!--start section 5 News-->
+        <section class="news py-5">
+            <h2 class="main-title text-center mb-5">World News</h2>
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper-card d-flex">
+                            <div class="card-info ">
+                                <h2>Podcast Title</h2>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Mon, May 25th 2023
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Qui iure nostrum nemo repellat corrupti nesciunt modi 
+                                    itaque reiciendis libero, animi explicabo sit, quas blanditiis, 
+                                    esse impedit? Quia dicta sequi provident.
+                                </p>
+                                <div class="control">
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                        Podcast
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-clock"></i>
+                                        55 Mins
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-play"></i>
+                                        Play Episode
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <img src="img/package-3.jpg" alt="boat">
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper-card d-flex justify-content-between">
+                            <img src="img/pakistan.png" class="special" alt="boat">
+                            <div class="card-info ">
+                                <h2>Podcast Title</h2>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Mon, May 25th 2023
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Qui iure nostrum nemo repellat corrupti nesciunt modi 
+                                    itaque reiciendis libero, animi explicabo sit, quas blanditiis, 
+                                    esse impedit? Quia dicta sequi provident.
+                                </p>
+                                <div class="control">
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                        Podcast
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-clock"></i>
+                                        55 Mins
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-play"></i>
+                                        Play Episode
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper-card d-flex">
+                            <div class="card-info ">
+                                <h2>Podcast Title</h2>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Mon, May 25th 2023
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Qui iure nostrum nemo repellat corrupti nesciunt modi 
+                                    itaque reiciendis libero, animi explicabo sit, quas blanditiis, 
+                                    esse impedit? Quia dicta sequi provident.
+                                </p>
+                                <div class="control">
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                        Podcast
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-clock"></i>
+                                        55 Mins
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-play"></i>
+                                        Play Episode
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <img src="img/background img.png" alt="boat">
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="wrapper-card d-flex">
+                            <img src="img/destination-3.jpg" class="special" alt="boat">
+                            <div class="card-info ">
+                                <h2>Podcast Title</h2>
+                                <span>
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    Mon, May 25th 2023
+                                </span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                    elit. Qui iure nostrum nemo repellat corrupti nesciunt modi 
+                                    itaque reiciendis libero, animi explicabo sit, quas blanditiis, 
+                                    esse impedit? Quia dicta sequi provident.
+                                </p>
+                                <div class="control">
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                        Podcast
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-clock"></i>
+                                        55 Mins
+                                    </div>
+                                    <div class="control-box">
+                                        <i class="fa-solid fa-play"></i>
+                                        Play Episode
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end section 5 News-->
+
+        <!--start section 6 join us-->
+        <section class="join py-5">
+            <h2 class="main-title text-center mb-5">Join Us</h2>
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="social-box">
+                            <h4>Subscribe Now</h4>
+                            <img src="img/youtube.png">
+                            <a href="#" class="d-block">Go To Link</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="social-box">
+                            <h4>Follow</h4>
+                            <img src="img/facebook.png">
+                            <a href="#" class="d-block">Go To Link</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="social-box">
+                            <h4>Like The Page</h4>
+                            <img src="img/linkedin.png">
+                            <a href="#" class="d-block">Go To Link</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="social-box">
+                            <h4>Watch Reels</h4>
+                            <img src="img/insta.png">
+                            <a href="#" class="d-block">Go To Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--end section 6 join us-->
+        <!--start footer --> 
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <img src="img/book-img.png" alt="Logo">
+                        <p>Tel: 01092635055</p>
+                        <p>Address: egypt</p>
+                        <p>Fax: 000.00.000</p>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <h5>Contact Us</h5>
+                        <ul>
+                            <li>Visit Us</li>
+                            <li>Take alook</li>
+                            <li>Your Health is Your Important</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <h5>Good Company</h5>
+                        <ul>
+                            <li>Services For All</li>
+                            <li>Provide Best Services</li>
+                            <li>You Will Be better Than Before</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!--start social media icons-->
+        <div class="social-media-icons">
+            <i class="fa-brands fa-facebook mb-3"></i>
+            <i class="fa-brands fa-instagram mb-3"></i>
+            <i class="fa-brands fa-whatsapp mb-3"></i>
+            <i class="fa-brands fa-twitter mb-3"></i>
+            <i class="fa-brands fa-youtube mb-3"></i>
+        </div>
+        <!--end social media icons-->
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
